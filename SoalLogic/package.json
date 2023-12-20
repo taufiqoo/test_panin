@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2"
+  },
+  "name": "techical-test-panin",
+  "version": "1.0.0",
+  "main": "soalLogic2.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "node soalLogic2.js"
+  },
+  "keywords": [],
+  "author": "Taufiqurrahman Saleh",
+  "license": "ISC",
+  "description": ""
+}

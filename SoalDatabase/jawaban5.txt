@@ -1,0 +1,12 @@
+Masukan terhadap design database yang ada
+
+tekan "alt + z" supaya membacanya enak
+
+1. Penggunaan foreign key
+Foreign key dapat digunakan untuk membuat relasi antar tabel, baik itu one-to-one, one-to-many maupun many-to-many. Dalam kasus ini, kolom positionid di tabel EmpEmployment dan EmpHierarchy dapat dijadikan foreign key yang merujuk ke kolom positionid di tabel Position.
+
+2. Indexing
+Ketika jumlah data terus bertambah, maka proses pencarian akan menjadi semakin lambat, nah hal tersebut bisa diatasi dengan melakukan indexing. Dalam kasus ini, yang mungkin dapat dibuatkan indeks adalah kolom employeeid atau positionid, karena kolom tersebut sering digunakan sebagai primarykey dan juga dijadikan referensi dalam tabel lain. Namun, perlu bijak dalam melakukan indexing karena betul dapat mempercepat proses pencarian, tetapi akan memperlambat proses insert, update dan delete.
+
+3. Validasi 
+Validasi ini penting untuk menjaga konsistensi data, terutama pada data yang diinput oleh user
